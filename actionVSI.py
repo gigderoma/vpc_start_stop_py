@@ -8,7 +8,7 @@ authenticator = IAMAuthenticator(API_KEY)
 service = VpcV1(authenticator=authenticator)
 
 #Set API endpoints
-service.set_service_url('https://br-sao.iaas.cloud.ibm.com/v1')
+service.set_service_url('https://eu-gb.iaas.cloud.ibm.com/v1')
 
 #Get the required action from environment variable
 VSIaction = os.environ['action']
